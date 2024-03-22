@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <table align="center" id="tabela">
+
+    <tr>
+        <td>
+            <img id="imagem"  src="Imagen/imagem1.jpg" alt="borboleta 1">
+        </td>
+    </tr>        
+
+    <tr>
+        <td>
+            <button id="btnBorboleta1"> Borboleta 1 </button>
+            <button id="btnBorboleta2"> Borboleta 2 </button>
+
+        </td>
+    </tr>     
+    </table>
+    </div>
+</body>
+</html>
+
+<style>
+    #tabela tr td {
+        text-align: center;
+    }
+</style>
+
+<script>
+    var btnBorboleta1 = document.querySelector('#btnBorboleta 1');
+    btnBorboleta1.addEventListener('click',TrocarBorboleta1);
+     function TrocarBorboleta1(){
+        document.getElementById("imagem").src="imagem1.jpg"
+        Trocar();
+    }
+    var btnBorboleta2 = document.querySelector('#btnBorboleta 2');
+    btnBorboleta2.addEventListener('click'.TrocarBorboleta2); 
+    function TrocarBorboleta2(){
+        document.getElementById("imagem").src="imagem2.jpg"
+    }
+    
+</script>
