@@ -8,13 +8,13 @@
 </head>
 <body>
     <h1>1- Em 1996 Kobe Bryant estava em qual time?  </h1>
-    <button class="button" > Nuggets</button>  <br>
-    <button class="button" > Lakers</button> <br>
-    <button class="button" >Celtics</button> <br>
-    <button class="button" >Chicago Bulls</button> <br>
+    <button onclick="Resposta(Errado)" > Nuggets</button>  <br>
+    <button onclick="Resposta(Correto)" > Lakers</button> <br>
+    <button onclick="Resposta(Correto)" >Celtics</button> <br>
+    <button onclick="Resposta(Correto)" >Chicago Bulls</button> <br>
 
     <h1>2- Em qual ano Los Angeles Lakers ganhou o primeiro titulo ?  </h1>
-    <button class="button" >1949 </button>  <br>
+    <button onclick="Resposta(Correto)"  >1949 </button>  <br>
     <button class="button" >1951 </button> <br>
     <button class="button" >1956</button> <br>
     <button class="button" >2004</button> <br>
@@ -33,9 +33,35 @@
 
     <h1>5- Qual foi primeiro time que lebron james entrou na sua carreira?  </h1>
     <button class="button" >  Cleveland Cavaliers </button>  <br>
-    <button class="button" > </button> <br>
-    <button class="button" >Cs</button> <br>
-    <button class="button" ></button> <br>
+    <button class="button" > Atlanta Hawks </button> <br>
+    <button class="button" > Dallas Mavericks</button> <br>
+    <button class="button" > Chicago Bulls</button> <br>
+
+    <h1>Clique para saber se é impar ou par </h1>
+    <Button onclick="P1(14)"> 14  </Button>
+
+
+
+
+    <script >
+         function Resposta(id){
+            if (id == Correto){
+                alert("Esta correto ")
+
+            }else{
+                alert("Esta errado")
+            }
+         } 
+
+         function P1(id){
+            if(id % 2 == 0) {
+                alert("É par")
+            }else{
+                alert("É impar")
+            }
+         }
+
+    </script>
 
 
 
