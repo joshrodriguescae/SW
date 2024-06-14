@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <style>
+      .calculator{
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 5px;
+          padding: 10px;
+          border: 1px solid #0003ce;
+          max-width: 300px;
+          margin: 0 auto;
+      }
+
+      .calculator input[type = "text"]  {
+          grid-column: span 4;
+          padding: 10px;
+          font-size: 20px;
+          text-align: right;
+
+      }
+     
+      .calculator button {
+          padding: 10px;
+          font-size: 20px;
+          cursor: pointer;
+
+
+
+      }
+    </style>
+</head>
+<body>
+ <h1>calculadora</h1>  
+
+ <div class="calculator">
+        <input type="text" id="display" readonly>
+        <button onclick="adicionarNumero('0')">0</button>
+        <button onclick="adicionarNumero('1')">1</button>
+        <button onclick="adicionarNumero('2')">2</button>
+        <button onclick="adicionarNumero('3')">3</button>
+        <button onclick="adicionarNumero('4')">4</button>
+        <button onclick="adicionarNumero('5')">5</button>
+        <button onclick="adicionarNumero('6')">6</button>
+        <button onclick="adicionarNumero('7')">7</button>
+        <button onclick="adicionarNumero('8')">8</button>
+        <button onclick="adicionarNumero('9')">9</button>
+        <button onclick="adicionarNumero(',')">,</button>
+        <button onclick="Limpar()">C</button>
+        <button onclick="LimparEntry()">CE</button>
+        <button onclick="adicionarOperador('+')">+</button>
+        <button onclick="adicionarOperador('-')">-</button>
+        <button onclick="adicionarOperador('*')">*</button>
+        <button onclick="adicionarOperador('%')">%</button>
+        
+
+ </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
