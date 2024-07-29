@@ -1,0 +1,15 @@
+.botao {
+    width: 250px;
+    height: 25px;
+    background-color: rgb(37, 3, 185);
+    
+}
+.seleçao {
+    width: 250px;
+    height: 25px;
+    background-color: rgb(12, 149, 254);
+}
+
+.corletra {
+    color: blue;
+}
